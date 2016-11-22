@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# cucumber_practice
+Peter and Jane Pair_up Cucumber Assignment
+>>>>>>> bf678cadd27774a3d6da6340591bb856c514af9a
