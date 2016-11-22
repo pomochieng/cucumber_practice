@@ -17,6 +17,7 @@ Then(/^I should be signed up$/) do
 end
 
 Given(/^I am an existing user$/) do
+	#FactoryGirl.create(:user, email: 'email@gmail.com')
    
 end
 
