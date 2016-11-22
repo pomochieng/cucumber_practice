@@ -17,10 +17,14 @@ Then(/^I should be signed up$/) do
 end
 
 Given(/^I am an existing user$/) do
-    pending # Write code here that turns the phrase above into concrete actions
+   
 end
 
 Then(/^I should not be signed up$/) do
-    pending # Write code here that turns the phrase above into concrete actions
+   
+end
+
+When(/^fill in  wrong info$/) do
+  
 end
 
