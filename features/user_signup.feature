@@ -17,11 +17,11 @@ Feature: User Signup
          Then I should not be signed up
 
 
-        # Scenario: cannot sign up with invalid info
-        # Given I am a new user
-        # When I visit the sign up page
-        # And fill in  wrong info
-        # Then I should not be signed up
+    Scenario: cannot sign up with invalid info
+         Given I am a new user
+         When I visit the sign up page
+         And fill in  wrong info
+         Then I should not be signed up
 
 
 
