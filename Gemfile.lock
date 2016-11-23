@@ -80,6 +80,11 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.7.0)
+    factory_girl (4.7.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.7.0)
+      factory_girl (~> 4.7.0)
+      railties (>= 3.0.0)
     ffi (1.9.14)
     gherkin (4.0.0)
     globalid (0.3.7)
@@ -170,6 +175,8 @@ GEM
       activesupport (>= 4.2)
     spring-commands-cucumber (1.0.1)
       spring (>= 0.9.1)
+    spring-commands-rspec (1.0.4)
+      spring (>= 0.9.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
@@ -210,6 +217,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   cucumber-rails
   database_cleaner
+  factory_girl_rails
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
@@ -219,6 +227,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   spring
   spring-commands-cucumber
+  spring-commands-rspec
   spring-watcher-listen (~> 2.0.0)
   sqlite3
   turbolinks (~> 5)
