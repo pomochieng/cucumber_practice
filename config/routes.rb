@@ -4,4 +4,7 @@ Rails.application.routes.draw do
   post 'users' => 'users#create'
   get 'users' => 'users#show'
   get 'microposts' => 'microposts#new'
+  get 'login'   => 'sessions#new'
+  post 'login' => 'sessions#create'
+  get 'login' => 'sessions#show'
 end
